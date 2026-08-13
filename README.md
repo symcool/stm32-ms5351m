@@ -1,4 +1,5 @@
 # MS5351M 时钟发生器驱动（软件 I2C）
+<img width="1169" height="809" alt="image" src="https://github.com/user-attachments/assets/5fb8e8f8-48ec-4124-92b5-8b0ab3805106" />
 
 MS5351M（Si5351A 兼容）三路时钟发生器驱动，基于 STM32 HAL + 软件 I2C。
 驱动按硬件规格自动分配 PLL 与分频器，越界频率静默钳位，`void` 接口无返回值。
